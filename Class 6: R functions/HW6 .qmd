@@ -1,0 +1,31 @@
+---
+title: "HW6 (R function)"
+format: html
+editor: visual
+---
+
+```{r}
+analyze_drug_binding <- function(pdb_id) {
+
+  pdb <- read.pdb(pdb_id)
+  pdb_chainA <- trim.pdb(pdb, chain = "A", elety = "CA")
+  b_factors <- pdb_chainA$atom$b
+
+  plotb3(b_factors,
+         sse = pdb_chainA,
+         typ = "l",
+         ylab = "B-factor",
+         main = paste("B-factor plot for", pdb_id))
+
+  return(b_factors)
+}
+
+```
+
+
+```{r}
+b1 <- analyze_drug_binding("4AKE")
+b2 <- analyze_drug_binding("1AKE")
+b3 <- analyze_drug_binding("1E4Y")
+```
+

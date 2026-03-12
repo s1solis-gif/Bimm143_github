@@ -1,0 +1,48 @@
+---
+title: "HW 6 (R function)"
+format: html
+editor: visual
+---
+
+
+
+##Code
+
+
+```{r}
+analyze_drug_binding <- function(pdb_id) {
+
+  pdb <- read.pdb(pdb_id)
+  pdb_chainA <- trim.pdb(pdb, chain = "A", elety = "CA")
+  b_factors <- pdb_chainA$atom$b
+
+  plotb3(b_factors,
+         sse = pdb_chainA,
+         typ = "l",
+         ylab = "B-factor",
+         main = paste("B-factor plot for", pdb_id))
+
+  return(b_factors)
+}
+
+b1 <- analyze_drug_binding("4AKE")
+b2 <- analyze_drug_binding("1AKE")
+b3 <- analyze_drug_binding("1E4Y")
+
+```
+
+
+> Q. Comments on what are the inputs to the function
+
+The inputs the functions is pdb_id. This input is a character string that tells the function which protein structure to load an analyze. 
+
+> Q. what the function does and how to use it.
+
+The function reads a protein structure from the PDB, extracts only chain A and the C-alpha atoms, pulls out their B-factors, and make a line plot showing the B-factor pattern for that protein. You use the function by giving it a PDB ID as a character string. The function will automatically download teh structure, process it, and show the B-factor plot. 
+
+> Q. what is the output of the function.
+
+The output of the function is a numeric vector of B-factors for chain A C-alpha atoms from the protein you selected. 
+
+
+
