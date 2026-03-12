@@ -18,8 +18,8 @@ UC San Diego.
 - Class13 [DESeq lab](class13/Class13.qmd)
 - Class14 [DESeq2 Mini Project](class14/Class14.qmd)
 - Class15 [GitHub Repo](https://github.com/s1solis-gif/Bimm143_github/tree/main)
-- Class16 [Unix Basics](class16/Class16.qmd)
-- Class17 [Analyzing sequencing data in the cloud](class17/Class17.html)
+- Class16 Unix Basics
+- Class17 Analyzing sequencing data in the cloud
 - Class 18 [Pertussis Resurgance Mini-Project](class18/Class18.qmd)
 
 
