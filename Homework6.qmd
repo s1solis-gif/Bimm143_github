@@ -1,0 +1,49 @@
+---
+title: "Homework 6"
+author: "Stephanie Solis (PID: A18572681)"
+format: pdf
+editor: visual
+---
+
+## CODE
+
+```{r}
+library(bio3d)
+```
+
+```{r}
+analyze_drug_binding <- function(pdb_id) {
+
+  pdb <- read.pdb(pdb_id)
+  pdb_chainA <- trim.pdb(pdb, chain = "A", elety = "CA")
+  b_factors <- pdb_chainA$atom$b
+
+  plotb3(b_factors,
+         sse = pdb_chainA,
+         typ = "l",
+         ylab = "B-factor",
+         main = paste("B-factor plot for", pdb_id))
+
+  return(b_factors)
+}
+```
+
+```{r}
+b1 <- analyze_drug_binding("4AKE")
+b2 <- analyze_drug_binding("1AKE")
+b3 <- analyze_drug_binding("1E4Y")
+```
+
+## QUESTIONS
+
+> Q. Comments on what are the inputs to the function.
+
+The input of the function is pdb_id, a character string that tells the function which protien structure to load and analyze.
+
+> Q. what the function does and how to use it.
+
+The function reads a protein structure from the PDB, extracts only chain A and the C‑alpha atoms, pulls out their B‑factors, and makes a line plot showing the B‑factor pattern for that protein. You use the function by giving it a PDB ID as a character string. 
+
+> Q. what is the output of the function
+
+The output of the function is a numeric vector of B‑factors for chain A C‑alpha atoms from the protein you selected.
