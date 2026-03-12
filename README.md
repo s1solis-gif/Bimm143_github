@@ -6,21 +6,21 @@ UC San Diego.
 
 *Introductory Material*
 
-- Class04 [Intro to R](class04/class04.qmb)
-- Class05 [Data viz with ggplot](class05/class05.md)
-- Class06 [R functions](class06/class06.md)
-- Class07 [Machine Learning 1](class07/class07.md)
-- Class08 [ML Mini Project](class08/class08.md)
-- Class09 [Halloween Mini-Project](class09/class09.md)
-- Class10 [Structural Bioinformatics](class10/class10.md)
-- Class11 [AlphaFold](class11/class11.md)
-- Class12 [RNASeq Galaxy](class12/class12.md)
-- Class13 [DESeq lab](class13/class13.md)
-- Class14 [DESeq2 Mini Project](class14/class14.md)
+- Class04 [Intro to R](class04/class04.html)
+- Class05 [Data viz with ggplot](class05/class05.qmd)
+- Class06 [R functions](class06/HW6 .qmd)
+- Class07 [Machine Learning 1](class07/class7.qmd)
+- Class08 [ML Mini Project](class08/classn8.qmd)
+- Class09 [Halloween Mini-Project](class09/Class 9.qmd)
+- Class10 [Structural Bioinformatics](class10/Class10.qmd)
+- Class11 [AlphaFold](class11/Class11.qmd)
+- Class12 [RNASeq Galaxy](class12/Class12.qmd)
+- Class13 [DESeq lab](class13/Class13.qmd)
+- Class14 [DESeq2 Mini Project](class14/Class14.qmd)
 - Class15 [GitHub Repo](https://github.com/s1solis-gif/Bimm143_github/tree/main)
-- Class16 [Unix Basics](class16/class16.md)
-- Class17 [Analyzing sequencing data in the cloud](class17/class17.md)
-- Class 18 [Pertussis Resurgance Mini-Project](class18/class18.md)
+- Class16 [Unix Basics](class16/Class16.qmd)
+- Class17 [Analyzing sequencing data in the cloud](class17/Class17.html)
+- Class 18 [Pertussis Resurgance Mini-Project](class18/Class18.qmd)
 
 
 
