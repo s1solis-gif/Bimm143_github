@@ -1,0 +1,46 @@
+---
+title: "Class12"
+author: "Stephanie Solis (A18572681)"
+format: pdf
+editor: visual
+---
+
+```{r}
+url <- "https://bioboot.github.io/bggn213_W19/class-material/rs8067378_ENSG00000172057.6.txt"
+dat <- read.table(url, header = TRUE, stringsAsFactors = TRUE)
+
+```
+
+
+```{r}
+head(dat)
+str(dat)
+
+```
+
+```{r}
+table(dat$geno)
+```
+
+> Q13. 
+
+The three genotypes show clear differences in ORMDL3 expression. The median expression for individuals with the A/A genotype is 31.24847, which is the highest among the groups. The A/G heterozygotes show an intermediate median expression of 25.06486, while the G/G genotype has the lowest median expression at 20.07363. This pattern suggests a stepwise decrease in ORMDL3 expression as the number of G alleles increases.
+
+```{r}
+tapply(dat$exp, dat$geno, median)
+
+```
+
+
+
+```{r}
+boxplot(exp ~ geno, data = dat,
+        xlab = "Genotype at rs8067378",
+        ylab = "ORMDL3 Expression",
+        main = "ORMDL3 Expression by Genotype",
+        col = c("lightblue", "lightgreen", "lightpink"))
+
+```
+>Q14. 
+
+The boxplot comparing A/A, A/G, and G/G genotypes shows a clear downward trend in ORMDL3 expression from A/A to G/G. Because individuals with the G/G genotype express ORMDL3 at substantially lower levels than those with A/A, the data indicate that rs8067378 does influence ORMDL3 expression. In other words, this SNP acts as an eQTL, with the G allele associated with reduced expression of the gene.
