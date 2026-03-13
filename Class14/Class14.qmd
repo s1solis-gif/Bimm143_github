@@ -1,6 +1,6 @@
 ---
 title: "Class14"
-author: "Zahra Rashidid (PID A18561538)"
+author: "Stephanie Solis (PID A18572681)"
 format: pdf
 editor: visual
 ---
