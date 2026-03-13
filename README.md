@@ -20,7 +20,7 @@ UC San Diego.
 - Class15 [GitHub Repo]
 - Class16 Unix Basics
 - Class17 [Analyzing sequencing data in the cloud](Class17.qmd)
-- Class 18 [Pertussis Resurgance Mini-Project](class18/Class18.qmd)
+- Class 18 [Pertussis Resurgance Mini-Project](Class18/Class18.qmd)
 
 
 
