@@ -12,7 +12,7 @@ UC San Diego.
 - Class07 [Machine Learning 1](Class7.qmd)
 - Class08 [ML Mini Project](Class8.qmd)
 - Class09 [Halloween Mini-Project](Class9.qmd)
-- Class10 [Structural Bioinformatics](class10/Class10.qmd)
+- Class10 [Structural Bioinformatics](Class10/Class10.qmd)
 - Class11 [AlphaFold](class11/Class11.qmd)
 - Class12 [RNASeq Galaxy](class12/Class12.qmd)
 - Class13 [DESeq lab](class13/Class13.qmd)
