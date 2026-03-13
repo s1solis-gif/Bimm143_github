@@ -1,6 +1,6 @@
 ---
 title: "class11"
-author: "Zahra Rashidi (A18561538)"
+author: "Stephanie Solis (A18572681)"
 format:
   pdf:
     prefer-html: true
