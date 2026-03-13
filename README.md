@@ -17,7 +17,7 @@ UC San Diego.
 - Class12 [RNASeq Galaxy](Class12/Class12.qmd)
 - Class13 [DESeq lab](Class13/Class13.qmd)
 - Class14 [DESeq2 Mini Project](Class14/Class14.qmd)
-- Class15 [GitHub Repo](https://github.com/s1solis-gif/Bimm143_github/tree/main)
+- Class15 [GitHub Repo]
 - Class16 Unix Basics
 - Class17 Analyzing sequencing data in the cloud
 - Class 18 [Pertussis Resurgance Mini-Project](class18/Class18.qmd)
