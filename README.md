@@ -6,7 +6,7 @@ UC San Diego.
 
 *Introductory Material*
 
-- Class04 [Intro to R](class04/class04.html)
+- Class04 [Intro to R](Class04/Untitled.html)
 - Class05 [Data viz with ggplot](class05/class05.qmd)
 - Class06 [R functions](class06/HW6 .qmd)
 - Class07 [Machine Learning 1](class07/class7.qmd)
