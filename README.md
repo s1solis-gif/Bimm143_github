@@ -9,7 +9,7 @@ UC San Diego.
 - Class04 [Intro to R](Class04/Untitled.html)
 - Class05 [Data viz with ggplot](Class05/Class05.qmd)
 - Class06 [R functions](Class06/Homework6.qmd)
-- Class07 [Machine Learning 1](class07/class7.qmd)
+- Class07 [Machine Learning 1](Class7.qmd)
 - Class08 [ML Mini Project](class08/classn8.qmd)
 - Class09 [Halloween Mini-Project](class09/Class 9.qmd)
 - Class10 [Structural Bioinformatics](class10/Class10.qmd)
