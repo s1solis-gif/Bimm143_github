@@ -1,6 +1,6 @@
 ---
 title: "class18"
-author: "Zahra Rashidi (A18561538)"
+author: "Stephanie Solis (A18572681)"
 format: pdf
 editor: visual
 ---
