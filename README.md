@@ -16,7 +16,7 @@ UC San Diego.
 - Class11 [AlphaFold](class11/Class11.qmd)
 - Class12 [RNASeq Galaxy](Class12/Class12.qmd)
 - Class13 [DESeq lab](Class13/Class13.qmd)
-- Class14 [DESeq2 Mini Project](class14/Class14.qmd)
+- Class14 [DESeq2 Mini Project](Class14/Class14.qmd)
 - Class15 [GitHub Repo](https://github.com/s1solis-gif/Bimm143_github/tree/main)
 - Class16 Unix Basics
 - Class17 Analyzing sequencing data in the cloud
