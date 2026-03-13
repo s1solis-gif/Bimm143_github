@@ -19,7 +19,7 @@ UC San Diego.
 - Class14 [DESeq2 Mini Project](Class14/Class14.qmd)
 - Class15 [GitHub Repo]
 - Class16 Unix Basics
-- Class17 Analyzing sequencing data in the cloud
+- Class17 [Analyzing sequencing data in the cloud](Class17.qmd)
 - Class 18 [Pertussis Resurgance Mini-Project](class18/Class18.qmd)
 
 
